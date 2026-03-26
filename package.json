@@ -1,9 +1,13 @@
-
 {
-  "name": "John Doe",
-  "age": 30,
-  "isStudent": false,
-  "courses": ["Math", "Science"]
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "My simple website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo 'No tests yet' && exit 0",
+    "build": "echo 'Build complete'"
+  },
+  "author": "Your Name",
+  "license": "MIT"
 }
-
-
